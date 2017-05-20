@@ -1,0 +1,11 @@
+
+
+***打开命令提示符，用FC 可以比较两个文件的差别
+
+***git bash也是运用类似unix的命令
+
+***每次commit都是清楚且有逻辑的，不能随意commit
+
+***克隆版本库用git clone URL
+
+***退出git log 输入q

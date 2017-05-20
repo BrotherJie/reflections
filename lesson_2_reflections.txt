@@ -1,0 +1,4 @@
+
+***用git init创建.git文件
+
+***可以用git status查看操作情况
