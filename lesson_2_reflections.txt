@@ -1,4 +1,24 @@
 
-***用git init创建.git文件
+***用git init创建.git的隐藏文件，给文件创建repository
 
 ***可以用git status查看操作情况
+
+***将文件添加到staging area的命令称为git add
+
+***git diff 不加任何参数可以对比工作目录和staging area进行对比
+
+***git diff --staged可以对比staging area和repository的文件
+
+***git reset --hard能放弃工作目录或staging area的所以更改//无法恢复的命令，小心使用
+
+***git branch可以查看所在分支，git branch NAME创建新的分支
+
+***git checkout NAME能转换到想要更改的分支
+
+***git log --graph --oneline branch1 branch2可以直观的查看分支情况
+
+***将两个分支合并后，新的commit会同时存储两个父commit的信息
+
+***合并后的master分支将包括之前的所以更改以及branch 1分支中的更改
+
+***git merge合并分支时可能出现合并冲突，需要手工修改

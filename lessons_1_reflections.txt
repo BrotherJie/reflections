@@ -1,11 +1,15 @@
+VCS:version control system
 
-
-***打开命令提示符，用FC 可以比较两个文件的差别
+***如果文件很大，手动查看bug很难。打开命令提示符，用FC 文件1 文件2 可以比较本地两个文件的差别
 
 ***git bash也是运用类似unix的命令
 
 ***每次commit都是清楚且有逻辑的，不能随意commit
 
-***克隆版本库用git clone URL
+***多个文件组成一个repository,每次commit都是repository的一次快照
+
+***克隆版本库用git clone URL//一般到URL是GitHub的链接
+
+***用git diff ID1 ID2 比较两次commit的版本区别
 
 ***退出git log 输入q
